@@ -1,0 +1,20 @@
+{
+  "name": "afterlight-survivors",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dashboard": "node scripts/dashboard-server.mjs",
+    "test:dashboard": "node --test tests/dashboard-model.test.mjs tests/dashboard-server.test.mjs",
+    "test:dashboard:ui": "node scripts/dashboard-ui-smoke.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/core.test.mjs tests/v2/*.test.mjs tests/v3/*.test.mjs",
+    "test:v2": "node --test tests/v2/*.test.mjs",
+    "test:legacy": "node --test tests/core.test.mjs",
+    "eval": "node scripts/v3/eval.mjs --output=eval/v3/simulation.json",
+    "eval:quick": "node scripts/v3/eval.mjs --quick",
+    "eval:legacy": "node scripts/eval.mjs",
+    "check": "node scripts/v3/check-static.mjs",
+    "test:ui": "node scripts/v3/ui-smoke.mjs"
+  }
+}

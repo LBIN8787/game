@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+node_modules/
+*.log
+eval/v02-local.json
+
+# Unity generated files (source assets remain tracked)
+engine/unity/**/[Ll]ibrary/
+engine/unity/**/[Tt]emp/
+engine/unity/**/[Oo]bj/
+engine/unity/**/[Bb]uilds/
+engine/unity/**/[Ll]ogs/
+engine/unity/**/[Uu]serSettings/
+engine/unity/**/.vs/
